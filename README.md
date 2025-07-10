@@ -251,7 +251,7 @@ The application can be deployed to:
 
 ### Automated Testing (Future Enhancement)
 
-\`\`\`bash
+```bash
 # Unit tests
 npm run test
 
@@ -260,28 +260,28 @@ npm run test:e2e
 
 # Integration tests
 npm run test:integration
-\`\`\`
+```
 
 ## 🔧 Troubleshooting
 
 ### Common Issues
 
 **1. Dependency Conflicts**
-\`\`\`bash
+```bash
 # Clear cache and reinstall
 npm cache clean --force
 rm -rf node_modules package-lock.json
 npm install --legacy-peer-deps
-\`\`\`
+```
 
 **2. Port Already in Use**
-\`\`\`bash
+```bash
 # Kill process on port 3000
 npx kill-port 3000
 
 # Or use different port
 PORT=3001 npm run dev
-\`\`\`
+```
 
 **3. Socket.IO Connection Issues**
 - Check browser console for WebSocket errors
@@ -296,9 +296,9 @@ PORT=3001 npm run dev
 ### Debug Mode
 
 Enable debug logging:
-\`\`\`bash
+```bash
 DEBUG=socket.io* npm run dev
-\`\`\`
+```
 
 ## 🤝 Contributing
 
@@ -306,9 +306,9 @@ DEBUG=socket.io* npm run dev
 
 1. **Fork the repository**
 2. **Create a feature branch**:
-   \`\`\`bash
+   ```bash
    git checkout -b feature/amazing-feature
-   \`\`\`
+   ```
 3. **Make your changes**
 4. **Test thoroughly**
 5. **Submit a pull request**
@@ -334,17 +334,17 @@ DEBUG=socket.io* npm run dev
 
 ### Document Endpoints
 
-\`\`\`
+```
 GET    /api/documents          # List all documents
 POST   /api/documents          # Create new document
 GET    /api/documents/[id]     # Get specific document
 PUT    /api/documents/[id]     # Update document
 DELETE /api/documents/[id]     # Delete document
-\`\`\`
+```
 
 ### Socket.IO Events
 
-\`\`\`javascript
+```javascript
 // Client to Server
 socket.emit('join-document', { documentId, user })
 socket.emit('content-change', { documentId, content })
@@ -358,7 +358,7 @@ socket.on('users-list', users)
 socket.on('content-changed', { content, userId })
 socket.on('title-changed', { title, userId })
 socket.on('cursor-moved', { userId, position })
-\`\`\`
+```
 
 ## 🔒 Security Considerations
 
