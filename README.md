@@ -12,12 +12,54 @@
 
 *MENTOR*:NEELA SANTOSH
 
-
 # 📝 Real-Time Collaborative Document Editor
 
 A modern, real-time collaborative document editor built with React.js, Next.js, and Socket.IO. Multiple users can edit documents simultaneously with live synchronization, user presence indicators, and auto-save functionality.
 
-![Collaborative Editor Demo](https://via.placeholder.com/800x400/4f46e5/ffffff?text=Collaborative+Document+Editor)
+## 🖼️ Demo Screenshots
+
+### Homepage - Document Management
+\`\`\`
+┌─────────────────────────────────────────────────────────────┐
+│  📝 Collaborative Documents                                 │
+│  Create and edit documents in real-time with others        │
+│                                                             │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │ ➕ Create New Document                              │   │
+│  │ Start a new collaborative document                  │   │
+│  │ ┌─────────────────────┐ [Create Document]          │   │
+│  │ │ Enter document title│                             │   │
+│  │ └─────────────────────┘                             │   │
+│  └─────────────────────────────────────────────────────┘   │
+│                                                             │
+│  📄 Welcome Document        👥 2 collaborators             │
+│  📄 Project Notes          👥 1 collaborator              │
+│  📄 Meeting Minutes        👥 3 collaborators             │
+└─────────────────────────────────────────────────────────────┘
+\`\`\`
+
+### Document Editor - Real-Time Collaboration
+\`\`\`
+┌─────────────────────────────────────────────────────────────┐
+│ ← Back    📝 Welcome Document    🟢 Connected  👤👤👤  Share │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  Welcome to the collaborative document editor!             │
+│                                                             │
+│  This is a real-time collaborative editor where            │
+│  multiple users can edit documents simultaneously.         │
+│                                                             │
+│  Features:                                                  │
+│  - Real-time collaborative editing                         │
+│  - Live user presence indicators                           │
+│  - Auto-save functionality                                 │
+│  - Document sharing via links                              │
+│  - Cursor position tracking                                │
+│                                                             │
+│  Start typing to see the magic happen! ✨                  │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+\`\`\`
 
 ## ✨ Features
 
@@ -100,6 +142,21 @@ A modern, real-time collaborative document editor built with React.js, Next.js, 
 2. Create a new document or open the "Welcome Document"
 3. Start typing in one tab and watch it appear in others
 4. Notice the user avatars and connection indicators
+
+## 🎥 Live Demo
+
+**Try it yourself:**
+1. Run the application locally following the steps above
+2. Open `http://localhost:3000` in multiple browser tabs
+3. Create or open the same document in both tabs
+4. Start typing and see real-time synchronization!
+
+**What you'll see:**
+- ✅ Text appears instantly in all tabs
+- ✅ User avatars show active collaborators
+- ✅ Connection status indicators
+- ✅ Auto-save notifications
+- ✅ Document sharing capabilities
 
 ## 📁 Project Structure
 
@@ -375,4 +432,5 @@ We welcome feature requests! Please:
 **Happy Collaborating! 🎉**
 
 Built with ❤️ using React, Next.js, and Socket.IO
+
 
