@@ -433,4 +433,8 @@ We welcome feature requests! Please:
 
 Built with ❤️ using React, Next.js, and Socket.IO
 
+## OUTPUT:
+
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/5c354c10-22ff-4bad-ac5b-582e39f457e4" />
+
 
