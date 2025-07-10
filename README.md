@@ -160,7 +160,7 @@ A modern, real-time collaborative document editor built with React.js, Next.js, 
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 collaborative-document-editor/
 ├── app/                          # Next.js App Router
 │   ├── page.tsx                 # Homepage with document list
@@ -182,7 +182,7 @@ collaborative-document-editor/
 ├── tailwind.config.ts           # Tailwind CSS configuration
 ├── tsconfig.json                # TypeScript configuration
 └── README.md                    # This file
-\`\`\`
+```
 
 ## 🔧 Configuration
 
